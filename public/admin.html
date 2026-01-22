@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+ <div></div> <title>Painel Admin | WLS Info</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Painel Administrativo - WLS Info</h1>
+<button onclick="logout()">Sair</button>
+</div>
+<hr>
+
+<h2>Cadastrar Produto</h2>
+
+<form id="form-produto" enctype="multipart/form-data">
+  <input type="text" name="nome" placeholder="Nome do produto" required>
+  <input type="text" name="descricao" placeholder="Descrição" required>
+  <input type="text" name="preco" placeholder="Preço" required>
+
+  <select name="categoria" required>
+    <option value="">Selecione a categoria</option>
+    <option value="Notebooks">Notebooks</option>
+    <option value="Periféricos">Periféricos</option>
+    <option value="Acessórios">Acessórios</option>
+    <option value="Redes">Redes</option>
+    <option value="Serviços">Serviços</option>
+  </select>
+
+  <input type="file" name="imagem" accept="image/*">
+  <button type="submit">Cadastrar</button>
+</form>
+
+
+<p id="mensagem"></p>
+
+<hr>
+
+<h2>Produtos cadastrados</h2>
+<div id="lista-produtos"></div>
+
+
+
+
+<!-- MODAL DE EXCLUSÃO -->
+<div id="modal-excluir" class="modal">
+  <div class="modal-conteudo">
+    <h3>Confirmar exclusão</h3>
+    <p>Tem certeza que deseja excluir este produto?</p>
+    <div class="acoes">
+      <button id="btn-confirmar">Sim, excluir</button>
+      <button id="btn-cancelar">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- JS (UMA ÚNICA VEZ, NO FINAL) -->
+<script src="js/admin.js"></script>
+
+
+</body>
+</html>
+
+
+

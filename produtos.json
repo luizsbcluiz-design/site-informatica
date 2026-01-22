@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Notebook Dell i5",
+    "descricao": "8GB RAM, SSD 256GB",
+    "preco": "R$ 1.699,00",
+    "imagem": "/uploads/1768917874811.jpg",
+    "categoria": "Notebooks"
+  },
+  {
+    "nome": "Pc Gamer",
+    "descricao": "Ssd 240gb, 16gb ram, placa de video",
+    "preco": "2400",
+    "imagem": "/uploads/1768855779553.jpg"
+  },
+  {
+    "nome": "Tablet samsung sm t295",
+    "descricao": "Tablet Samsung Galaxy Tab A Sm-t295 2gb Ram 32gb 8'' 4g - Excelente",
+    "preco": "450",
+    "categoria": "Acessórios",
+    "imagem": "/uploads/1769025905421.jpg"
+  }
+]
